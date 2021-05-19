@@ -54,9 +54,16 @@ class LK:
         except sqlite3.OperationalError as e:
             print(e)
 
+    def show_all_data(self):
+        try:
+            return self.db.execute('select * from lk_question;').fetchall()
+        except sqlite3.OperationalError as e:
+            print(e)
+
 
 if __name__ == '__main__':
     lk = LK()
-    # lk.insert_question(description='绀珠传中是谁让主角击退纯狐拯救月之都的？', answer='稀神探女')
-    print(lk.search_keyword('月'))
+    # print(lk.insert_question(description='欢迎来到实力至上注意的教室中哪个人物没有被退学？', answer='小宫叶吾'))
+    # print(lk.search_keyword('月'))
+    print(lk.show_all_data())
     # lk.delete_question('月之都')
