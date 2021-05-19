@@ -63,7 +63,7 @@ class LK:
 
 if __name__ == '__main__':
     lk = LK()
-    # print(lk.insert_question(description='欢迎来到实力至上注意的教室中哪个人物没有被退学？', answer='小宫叶吾'))
+    # print(lk.insert_question(description='《Re:从零开始的异世界生活》昴是什么的大祭司？', answer='嫉妒'))
     # print(lk.search_keyword('月'))
     print(lk.show_all_data())
     # lk.delete_question('月之都')
