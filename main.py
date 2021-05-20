@@ -67,7 +67,7 @@ class LK:
 
 if __name__ == '__main__':
     lk = LK()
-    # print(lk.insert_question(description='《叹息的亡灵香隐退》MASTER的别称是？', answer='千变万化'))
+    # print(lk.insert_question(description='“Angel Beats里天使最喜欢的食物是什么？', answer='麻婆豆腐'))
     # print(lk.search_keyword('大祭司'))
     print(lk.show_all_data())
     # lk.delete_question('月之都')
