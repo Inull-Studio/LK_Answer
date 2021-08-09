@@ -82,9 +82,10 @@ class LK:
 
 if __name__ == '__main__':
     lk = LK()
-    # print(lk.insert_question(description='“Angel Beats里天使最喜欢的食物是什么？', answer='麻婆豆腐'))
-    # print(lk.search_keyword('大祭司'))
+    print(lk.insert_question(
+        description='轻小说《黑之魔王》中以黑乃真央组成的冒险者小队叫什么？', answer='元素支配者'))
+    # print(lk.search_keyword('黑幕'))
     # print(lk.show_all_data())
     # lk.delete_question('月之都')
     # lk.change_question(id=7, description='', answer='')
-    print(lk.show_all_empty())
+    # print(lk.show_all_data())
